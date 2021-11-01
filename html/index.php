@@ -5,6 +5,7 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <title>Pi Music</title>
 </head>
 
 <body>
