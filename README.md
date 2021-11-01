@@ -12,7 +12,7 @@ See the `confs` folder for the configurations you will need to set this up.
 
 3. `sudo apt install mpd mpc`
 
-4. `mv mpd.conf /etc/mpd.conf`
+4. `cp confs/mpd.conf /etc/mpd.conf`
 
 5. `systemctl restart mpd`
 
