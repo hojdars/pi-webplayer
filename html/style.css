@@ -1,0 +1,52 @@
+body {
+	font-size: 45px;
+}
+
+button {
+	width: 50%;
+	height: 75px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 45px;
+}
+
+#connect {
+	color: green;
+}
+
+#disconnect {
+	color: red;
+}
+
+.info {
+	  height:40vh;
+	  text-align: center;
+ }
+
+.player {
+	height: 65vh;
+}
+
+
+@media only screen and (min-width: 1081px) {
+
+	body {
+		font-size: 21px;
+	}
+
+
+	button {
+		font-size: 30px;
+	}
+
+.info {
+	  float: left;
+	  width: 30%;
+	  text-align: right;
+ }
+
+.player {
+	margin-left: 30%;
+	height:98vh;
+}
+}
