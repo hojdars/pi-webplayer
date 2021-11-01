@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    cyp:
+        network_mode: host
+        environment:
+            - PORT=12345
+        build: ./cyp
+        image: "pi/cyp:latest"
+        restart: unless-stopped
