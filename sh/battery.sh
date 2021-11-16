@@ -1,8 +1,9 @@
 #!/bin/bash
 
-BAT=$(amixer -D bluealsa | tail -n 1 | sed -E 's/.*\[(.*)\].*/\1/g')
+# WARNING: If anything is wrong with the battery indicator, remove the 2> /dev/null redirect!
+BAT=$(amixer -D bluealsa 2> /dev/null | tail -n 1 | sed -E 's/.*\[(.*)\].*/\1/g')
 
-if [ $BAT -z ]
+if [[ -z $BAT ]]
 then
 	echo '-'
 else
